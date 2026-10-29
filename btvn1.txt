@@ -1,0 +1,12 @@
+Phần 1: hậu quả
+1. mất dữ liệu: file final bị lưu đè, không còn bản cũ, file chỉ có trên 1 máy.
+2. xung đột phiên bản: nhiều file v1, final gửi qua zalo, không biết bản nào mới nhất.
+3. không biết ai sửa gì, không quay lại được bản cũ.
+Nhiều file trên cùng 1 máy không phải backup nên Nam nói sai.
+
+Phần 2: Hybrid Workflow
+1. tạo thư mục project trên Google Drive hoặc OneDrive, cài app đồng bộ.
+2. để code vào đó, chỉ giữ 1 file main.py.
+3. viết code trên máy bình thường, Ctrl+S là tự đồng bộ lên cloud.
+4. gửi link cho nhóm, không gửi file qua zalo.
+5. lỡ xóa code: chuột phải file > Version history > chọn bản cũ > Restore.
